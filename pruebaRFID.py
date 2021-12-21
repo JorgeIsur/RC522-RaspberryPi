@@ -1,6 +1,6 @@
 import time
 import RPi.GPIO as GPIO
-import MFRC522 as rfid
+import mfrc522 as rfid
 #CREAMOS UN OBJETO DE CLASE MFRC522
 lectorRFID = rfid.MFRC522()
 #MENSAJE DE BIENVENIDA
